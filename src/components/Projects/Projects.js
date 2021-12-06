@@ -20,7 +20,7 @@ const Projects = () => {
           <BlogCard key={id}>
             <Img src={image}/>
             <TitleContent data-aos="fade-in">
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree>{title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo data-aos="fade-up">{description}</CardInfo>
