@@ -1,16 +1,22 @@
+
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './HeaderStyles';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
-const Header = () =>  (
+const Header = () =>  {
+  useEffect(() => {
+    Aos.init();
+}, [])
+return(
   <Container>
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color:"white", marginBottom: "20px"}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem" /> <Span data-aos="fade-in">Erick Munoz</Span>
         </a>
       </Link>
     </Div1>
@@ -46,6 +52,6 @@ const Header = () =>  (
       </SocialIcons>
     </Div3>
   </Container>
-);
+)}
 
 export default Header;
