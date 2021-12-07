@@ -11,9 +11,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <div>
-    Acomplishments
-  </div>
+  <> </>
 );
 
 export default Acomplishments;
