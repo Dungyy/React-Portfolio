@@ -19,8 +19,8 @@ export const Container = styled.div`
 `;
 
 export const Span = styled.span`
-  font-size: 2rem;
-  font-family: Sedgwick Ave Display, cursive; 
+  font-size: 3rem;
+  font-family: 'Sedgwick Ave Display', cursive; 
 `; 
 
 export const Div1 = styled.div`
