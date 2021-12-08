@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
-import { SectionDivider, Span1 } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 import Aos from 'aos';
@@ -11,7 +10,6 @@ const Footer = () => {
     Aos.init();
 }, [])
   return (
-    
     <FooterWrapper>
       <LinkList>
         <LinkColumn data-aos="fade-left" data-aos-easing="linear"data-aos-duration="900">
@@ -25,7 +23,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time, Always Learning.</Slogan>
+          <Slogan>"Great things happen to those who don't stop believing, trying, learning, and being grateful.”</Slogan>
         </CompanyContainer>
         <SocialIcons href="https://github.com/dungyy">
           <AiFillGithub size="3rem">

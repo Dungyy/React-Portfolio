@@ -25,14 +25,25 @@ export const Section = styled.section`
 `
 
 export const Span1 = styled.h2`
-  padding-top: 5rem;
-  margin-left: 12rem;
+  margin-left: 11rem;
   font-size: 2rem;
 
-
+  @media ${props => props.theme.breakpoints.sm}{
+    padding: 2rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-size: 32px;
+    line-height: 40px;
+    font-size: ${(props) => props.main ? '28px' : '32px'};
+    line-height: ${(props) => props.main ? '32px' : '40px'};
+    margin-bottom: 8px;
+    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    max-width: 100%;
+  }
 `
 
 export const SectionTitle = styled.h2`
+  margin-top: 5rem;
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -52,6 +63,7 @@ export const SectionTitle = styled.h2`
   }
 
   @media ${props => props.theme.breakpoints.sm}{
+    margin-top: 3rem;
     font-size: 32px;
     line-height: 40px;
     font-size: ${(props) => props.main ? '28px' : '32px'};
@@ -85,7 +97,6 @@ export const SectionText = styled.p`
 `
 
 export const SectionDivider = styled.div`
-
   width: 64px;
   height: 6px;
   border-radius: 10px;

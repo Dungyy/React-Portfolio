@@ -20,7 +20,7 @@ const Projects = () => {
                 </TitleContent>
                 <CardInfo data-aos="fade-up" data-aos-duration="1500">{description}</CardInfo>
                 <div>
-                  <TitleContent data-aos="fade-in">Stack</TitleContent>
+                  <TitleContent data-aos="zoom-fade-in" data-aos-duration="1500">Stack</TitleContent>
                   <TagList data-aos="zoom-in-up" data-aos-duration="1500">
                     {tags.map((tag, i) => (
                         <Tag key={i}>{tag}</Tag>

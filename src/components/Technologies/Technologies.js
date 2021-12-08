@@ -8,8 +8,8 @@ const Technologies = () =>  {
   
 return(
   <ScrollAnimation>
-    <Section id="tech">
-      <SectionDivider /><br /> <br /><br />
+    <Section id="tech"> <br />
+      <SectionDivider /><br /> 
       <SectionTitle data-aos="fade-right" data-aos-easing="linear"
       data-aos-duration="900">Technologies</SectionTitle>
       <SectionText data-aos="fade-up-right"data-aos-duration="1000"data-aos-easing="ease-in-sine">

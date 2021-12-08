@@ -1,5 +1,6 @@
 {
   "name": "portfolio_nextjs",
+  "description": "Ericks React Portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {

@@ -40,12 +40,12 @@ const Timeline = () => {
         Aos.init();
     }, []) 
     return (
-    <section id="about">
-      <Span1> <br />
-      <SectionDivider /> <br /> <br />
+    <section id="about"> <br />
+      <Span1>
+      <SectionDivider />  
       <SectionTitle data-aos="fade-right"data-aos-duration="1300">About me</SectionTitle>
       <SectionText data-aos="fade-left"data-aos-duration="1800"> 
-        a Self-Taught React Developer that has a genuine enthusiasm for programming, Learning new Technologies and helping people. My life changed after being told I could in any case have malignancy, I needed to completely step out of my comfort zone and roll out an improvement path for my Family and I, So what I did was grab a book and some online courses and began my Tech venture.
+        I am a Software Engineer who has a genuine enthusiasm for programming, Learning new Technologies and helping people. My life changed after being told I could in any case have malignancy, I needed to completely step out of my comfort zone and roll out an improvement path for my Family and I, So what I did was grab a book and some online courses and began my Tech venture.
         *Friendly reminder that life is excessively short, so appreciate it and live the life YOU want to live.*
       </SectionText>
       </Span1>
