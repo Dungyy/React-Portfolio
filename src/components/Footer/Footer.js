@@ -2,13 +2,10 @@ import React, { useEffect } from 'react';
 import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Footer = () => {
-  useEffect(() => {
-    Aos.init();
-}, [])
+
   return (
     <FooterWrapper>
       <LinkList>

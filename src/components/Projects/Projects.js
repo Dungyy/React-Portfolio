@@ -7,7 +7,7 @@ import ScrollAnimation from '../ScrollAnimations/ScrollAnimation';
 const Projects = () => {
   return (
       <ScrollAnimation>
-        <Section nopadding id="projects" data-aos="fade-up-right">
+        <Section nopadding id="projects" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
           <SectionDivider />
           <SectionTitle main data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900">Projects</SectionTitle>
           <GridContainer data-aos="fade-in">

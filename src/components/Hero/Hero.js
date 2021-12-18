@@ -2,14 +2,10 @@ import React, { useEffect} from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 
 const Hero = () => {
-  useEffect(() => {
-    Aos.init();
-}, [])
+
 return(
   <Section row nopadding>
     <LeftSection>
