@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { GiPerpendicularRings } from 'react-icons/gi';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './HeaderStyles';
 import ScrollAnimation from '../ScrollAnimations/ScrollAnimation';
 
@@ -14,7 +13,7 @@ return(
       <Div1 data-aos="fade-in-out" data-aos-duration="2000">
         <Link href="/">
           <a style={{ display: "flex", alignItems: "center", color:"white", marginBottom: "20px"}}>
-            <GiPerpendicularRings size="3rem" /> <Span>Erick Munoz</Span>
+             <Span>Erick Munoz</Span>
           </a>
         </Link>
       </Div1>

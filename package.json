@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start -p $PORT"
+    "start": "next build -p $PORT"
   },
   "dependencies": {
     "aos": "^2.3.4",
