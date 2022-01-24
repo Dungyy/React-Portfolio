@@ -1,1 +1,1 @@
-web bin/boot
+npm start
