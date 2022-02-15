@@ -14,7 +14,7 @@ return(
         Welcome to My Portfolio
       </SectionTitle>
       <SectionText data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-        I'm a full-stack Web Developer with expertise in ReactJS for frontend, MongoDB as my database, NodeJS for backend along with ExpressJS for making HTTPS and API requests.
+        I'm a full-stack Developer with expertise in ReactJS for frontend, MongoDB as my database, NodeJS for backend along with ExpressJS for making HTTPS and API requests.
       </SectionText>
       <Button onClick={() => window.location = 'mailto:erickmunoz13@gmail.com'}>Contact Me</Button>
     </LeftSection>

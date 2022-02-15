@@ -19,9 +19,9 @@ return(
       <List>
         <ListItem>
           <ListContainer>
-            <ListTitle data-aos="fade-right" data-aos-duration="900">Front-end</ListTitle>
+            <ListTitle data-aos="fade-right" data-aos-duration="900">Front-End</ListTitle>
             <ListParagraph data-aos="fade-right" data-aos-duration="1000">
-              Experience with <br /> 
+              
               <DiHtml5 size="3rem" />HTML <br /> 
               <DiCss3 size="3rem" />CSS <br /> 
               <DiJavascript1 size="3rem" />JavaScript <br /> 
@@ -31,9 +31,9 @@ return(
         </ListItem>
         <ListItem>
           <ListContainer>
-            <ListTitle data-aos="fade-up" data-aos-duration="900">Back-end</ListTitle>
+            <ListTitle data-aos="fade-up" data-aos-duration="900">Back-End</ListTitle>
             <ListParagraph data-aos="fade-up" data-aos-duration="1000">
-              Experience with <br /> 
+              
               <DiNodejsSmall size="3rem" />Node.JS <br /> 
               <DiPython size="3rem" />Python
             </ListParagraph>
@@ -43,8 +43,8 @@ return(
           <ListContainer>
             <ListTitle data-aos="fade-left" data-aos-duration="900">Tools</ListTitle>
             <ListParagraph data-aos="fade-left" data-aos-duration="1000">
-              Experience with <br /> 
-              ExpressJS | MongoDB | BootStrap <br /> API | JSON <br /> GIT/GitHub Version Control <br />VisualStudio Code
+              
+              ExpressJS | NextJS | ViteJS <br /> MongoDB | MySql  <br /> BootStrap5 | API | JSON <br /> GIT | GitHub Version Control <br />VisualStudio Code
             </ListParagraph>
           </ListContainer>
         </ListItem>
