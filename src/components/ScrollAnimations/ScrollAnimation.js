@@ -6,6 +6,6 @@ const ScrollAnimation = ({ children }) => {
     Aos.init();
   }, []);
   return <>{children}</>;
-}
+};
 
 export default ScrollAnimation;

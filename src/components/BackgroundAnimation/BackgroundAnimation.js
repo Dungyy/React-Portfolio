@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
 const BackgroundAnimation = () => (
   <div>
     <svg
       className="BgAnimation__svg"
-      viewBox="0 0 602 602"
+      viewBox="0 0 602 802"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity=".15">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
