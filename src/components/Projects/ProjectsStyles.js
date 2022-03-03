@@ -20,7 +20,6 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -29,6 +28,9 @@ export const BlogCard = styled.div`
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+  :hover {
+    background: rgba(80, 78, 78, 0.5);;
   }
 `;
 export const TitleContent = styled.div`

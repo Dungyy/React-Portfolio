@@ -25,8 +25,8 @@ const Hero = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          I'm a full-Stack Developer with expertise in ReactJS for frontend,
-          MongoDB as my database, NodeJS for backend along with ExpressJS for
+          I'm a self-Taught Software Engineer with expertise in ReactJS for frontend UI/UX Design,
+          MongoDB as a database, NodeJS for backend along with ExpressJS for
           making HTTPS and API requests.
         </SectionText>
         <Button
