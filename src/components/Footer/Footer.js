@@ -14,8 +14,10 @@ import {
   LinkTitle,
   Slogan,
   SocialContainer,
+  button2,
   SocialIconsContainer,
 } from "./FooterStyles";
+
 
 const Footer = () => {
   return (
@@ -39,15 +41,29 @@ const Footer = () => {
             ErickMunoz13@gmail.com
           </LinkItem>
         </LinkColumn>
+        <LinkColumn
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="900"
+        >
+          <LinkTitle>Schedule a Meeting</LinkTitle>
+          <LinkItem href="https://calendly.com/erickmunoztech/phone-call-meeting">
+            <button2>Click Here</button2>
+          </LinkItem>
+        </LinkColumn>
+        
+        
       </LinkList>
-      <SocialIconsContainer>
+      <SocialIconsContainer style={{ display: "flex", gap: "7px" }}>
         <CompanyContainer>
           <Slogan>
             "Great things happen to those who don't stop believing, trying,
             learning, and being grateful.”
           </Slogan>
         </CompanyContainer>
-        <SocialIcons href="https://github.com/dungyy">
+        <SocialIcons
+          href="https://github.com/dungyy"
+        >
           <AiFillGithub size="3rem"></AiFillGithub>
         </SocialIcons>
         <SocialIcons href="https://www.linkedin.com/in/erick-munoz-2532ab219/">

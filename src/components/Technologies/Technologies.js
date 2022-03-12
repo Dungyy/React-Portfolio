@@ -42,8 +42,9 @@ const Technologies = () => {
           data-aos-duration="1000"
           data-aos-easing="ease-in-sine"
         >
-          I've Worked with a range of Technologies in the web development world.
-          from Back-end to Front-end.
+          I work with a wide range of technologies from
+          ReactJS for frontend UI/UX Design, MongoDB as a database, NodeJS for
+          backend, and ExpressJS for making HTTPS and API requests.
         </SectionText>
         <List>
           <ListItem>
@@ -69,7 +70,7 @@ const Technologies = () => {
               </ListTitle>
               <ListParagraph data-aos="fade-up" data-aos-duration="1000">
                 <DiNodejsSmall size="3rem" />
-                Node.JS <br />
+                NodeJS <br />
                 <DiPython size="3rem" />
                 Python
               </ListParagraph>
@@ -81,15 +82,16 @@ const Technologies = () => {
                 Tools
               </ListTitle>
               <ListParagraph data-aos="fade-left" data-aos-duration="1000">
-                ExpressJS | NextJS | ViteJS <br /> MongoDB | MySql <br />{" "}
-                BootStrap5 | API | JSON <br /> GIT | GitHub Version Control{" "}
+                ExpressJS | NextJS | ViteJS <br /> MongoDB & Atlas | MySql <br />{" "}
+                BootStrap5 | NPM | JSON <br /> GIT | GitHub Version Control{" "}
                 <br />
-                VisualStudio Code
+                Visual Studio Code
               </ListParagraph>
             </ListContainer>
           </ListItem>
         </List>
       </Section>
+      <br />
     </ScrollAnimation>
   );
 };

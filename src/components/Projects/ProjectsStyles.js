@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 7px;
 `
 
 export const GridContainer = styled.section`
@@ -23,7 +24,7 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 1);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -45,19 +46,20 @@ export const TitleContent = styled.div`
 
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #fff;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
 export const Hr = styled.hr`
-  width: 50px;
+  width: 60px;
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
 `;
 
 export const Intro = styled.div`
@@ -97,12 +99,13 @@ export const ExternalLinks = styled.a`
 color:#ffffff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 border-radius: 15px;
 // transition: 0.5s;
+border: 1.6px solid white;
 
 &:hover{
-border: 2px solid rgba(80, 78, 78, 0.5);
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
 }
 `;
 
@@ -114,4 +117,5 @@ padding: 2rem;
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+
 `

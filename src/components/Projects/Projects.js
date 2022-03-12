@@ -44,20 +44,21 @@ const Projects = () => {
             ({ id, image, title, description, source, tags, visit }) => (
               <BlogCard key={id}>
                 <Img src={image} />
-                <TitleContent data-aos="fade-in">
+                
+                <TitleContent data-aos="fade-in"><br/>
                   <HeaderThree>{title}</HeaderThree>
                   <Hr />
                 </TitleContent>
                 <CardInfo data-aos="fade-up" data-aos-duration="1500">
                   {description}
                 </CardInfo>
-                <div>
+                <div><br/>
                   <TitleContent
                     data-aos="zoom-fade-in"
                     data-aos-duration="1500"
                   >
                     Stack
-                  </TitleContent>
+                  </TitleContent><br/>
                   <TagList data-aos="zoom-in-up" data-aos-duration="1500">
                     {tags.map((tag, i) => (
                       <Tag key={i}>{tag}</Tag>

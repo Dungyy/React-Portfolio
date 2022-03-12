@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -13,10 +12,14 @@ import {
   NavLink,
   SocialIcons,
   Span,
+  ContactDropDown,
+  NavProductsIcon
 } from "./HeaderStyles";
 import ScrollAnimation from "../ScrollAnimations/ScrollAnimation";
+import React, { useState } from "react";
 
 const Header = () => {
+
   return (
     <ScrollAnimation>
       <Container>
@@ -94,6 +97,7 @@ const Header = () => {
               onClick={() => window.open("https://twitter.com/codewithdungy")}
             ></AiFillTwitterCircle>
           </SocialIcons>
+          
         </Div3>
       </Container>
     </ScrollAnimation>

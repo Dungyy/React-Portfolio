@@ -157,3 +157,15 @@ export const LinkTitle = styled.h4`
 		margin-bottom: 8px;
 	}
 `
+export const button2 = styled.button`
+color:#ffffff;
+font-size: 1.6rem;
+padding:1rem 1.5rem;
+border-radius: 15px;
+border: 1.6px solid white;
+
+&:hover{
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
+}
+`;

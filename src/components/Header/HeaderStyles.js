@@ -1,5 +1,6 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
+import { GrClose } from "react-icons/gr";
 
 export const Container = styled.div`
   display: grid;
@@ -57,6 +58,7 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+
   &:hover {
     color: #fff;
     opacity: 1;
@@ -119,9 +121,10 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
-border-radius: 50px;
+border-radius: 25px;
 padding: 8px;
 background: #000 ;
+
 
 &:hover {
     background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'} !important;

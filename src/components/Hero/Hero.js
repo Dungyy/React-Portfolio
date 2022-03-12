@@ -17,16 +17,14 @@ const Hero = () => {
           data-aos-easing="linear"
           data-aos-duration="1700"
         >
-          Welcome!
+          Hello!
         </SectionTitle>
         <SectionText
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          I'm a self-Taught Software Engineer with expertise in ReactJS for
-          frontend UI/UX Design, MongoDB as a database, NodeJS for backend along
-          with ExpressJS for making HTTPS and API requests.
+          I am Erick Munoz a self-Taught Software Engineer 
         </SectionText>
 
         {/* <Button
