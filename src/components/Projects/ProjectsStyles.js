@@ -30,14 +30,17 @@ export const BlogCard = styled.div`
     width: 100%;
   }
   :hover {
-    background: rgba(80, 78, 78, 0.5);;
+    // background: rgba(80, 78, 78, 0.5);
+    opacity: 1;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    transition-delay: 0.1s;
   }
 `;
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
 
@@ -94,12 +97,12 @@ export const ExternalLinks = styled.a`
 color:#ffffff;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #66add4;
+background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 border-radius: 15px;
-transition: 0.5s;
-&:hover{
-background: #d0bb57;
+// transition: 0.5s;
 
+&:hover{
+border: 2px solid rgba(80, 78, 78, 0.5);
 }
 `;
 

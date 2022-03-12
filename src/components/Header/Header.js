@@ -66,25 +66,32 @@ const Header = () => {
           </li>
         </Div2>
         <Div3>
-          <SocialIcons href="https://github.com/dungyy">
+          <SocialIcons>
             <AiFillGithub
               size="3rem"
               data-aos="fade-left"
               data-aos-duration="3000"
+              onClick={() => window.open("https://github.com/dungyy")}
             ></AiFillGithub>
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/erick-munoz-2532ab219/">
+          <SocialIcons>
             <AiFillLinkedin
               size="3rem"
               data-aos="fade-up"
               data-aos-duration="2000"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/erick-munoz-2532ab219/"
+                )
+              }
             ></AiFillLinkedin>
           </SocialIcons>
-          <SocialIcons href="https://twitter.com/codewithdungy">
+          <SocialIcons>
             <AiFillTwitterCircle
               size="3rem"
               data-aos="fade-left"
               data-aos-duration="1200"
+              onClick={() => window.open("https://twitter.com/codewithdungy")}
             ></AiFillTwitterCircle>
           </SocialIcons>
         </Div3>

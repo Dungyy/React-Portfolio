@@ -120,9 +120,11 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
+background: #000 ;
+
 &:hover {
-    background-color: #212d45;
+    background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'} !important;
     transform: scale(1.2);
     cursor: pointer;
     

@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import {
   Section,
   SectionText,
@@ -18,21 +17,31 @@ const Hero = () => {
           data-aos-easing="linear"
           data-aos-duration="1700"
         >
-          Hello, Welcome to My Portfolio
+          Welcome!
         </SectionTitle>
         <SectionText
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          I'm a self-Taught Software Engineer with expertise in ReactJS for frontend UI/UX Design,
-          MongoDB as a database, NodeJS for backend along with ExpressJS for
-          making HTTPS and API requests.
+          I'm a self-Taught Software Engineer with expertise in ReactJS for
+          frontend UI/UX Design, MongoDB as a database, NodeJS for backend along
+          with ExpressJS for making HTTPS and API requests.
         </SectionText>
-        <Button
+
+        {/* <Button
           onClick={() => (window.location = "mailto:erickmunoz13@gmail.com")}
         >
           Contact Me
+        </Button> */}
+        <Button
+          onClick={() =>
+            window.open(
+              "https://calendly.com/erickmunoztech/phone-call-meeting"
+            )
+          }
+        >
+          Book Me!
         </Button>
       </LeftSection>
     </Section>

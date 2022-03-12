@@ -4,7 +4,7 @@ import Aos from "aos";
 const ScrollAnimation = ({ children }) => {
   useEffect(() => {
     Aos.init();
-  }, []);
+  }, [0]);
   return <>{children}</>;
 };
 
