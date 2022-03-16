@@ -18,7 +18,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-import ScrollAnimation from "../ScrollAnimations/ScrollAnimation";
+import ScrollAnimation from "../Animations/ScrollAnimation";
 
 const Projects = () => {
   return (
@@ -37,7 +37,7 @@ const Projects = () => {
           data-aos-easing="linear"
           data-aos-duration="900"
         >
-          Projects
+          Portfolio
         </SectionTitle>
         <GridContainer data-aos="fade-in">
           {projects.map(
@@ -67,7 +67,7 @@ const Projects = () => {
                 </div>
                 <UtilityList data-aos="flip-up" data-aos-duration="1500">
                   <ExternalLinks href={visit}>Live</ExternalLinks>
-                  <ExternalLinks href={source}>Source</ExternalLinks>
+                  <ExternalLinks href={source}>Code</ExternalLinks>
                 </UtilityList>
               </BlogCard>
             )

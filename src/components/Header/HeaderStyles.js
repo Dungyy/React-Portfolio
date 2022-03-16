@@ -29,6 +29,9 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -63,9 +66,20 @@ export const NavLink = styled.a`
     color: #fff;
     opacity: 1;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.75);
   }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
+    font-size: 0;
   }
 `;
 
@@ -130,6 +144,7 @@ background: #000 ;
     background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'} !important;
     transform: scale(1.2);
     cursor: pointer;
+    color: black;
     
   }
 `

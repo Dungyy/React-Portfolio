@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   AiFillGithub,
   AiFillTwitterCircle,
@@ -17,7 +17,6 @@ import {
   button2,
   SocialIconsContainer,
 } from "./FooterStyles";
-
 
 const Footer = () => {
   return (
@@ -45,33 +44,34 @@ const Footer = () => {
           data-aos="fade-right"
           data-aos-easing="linear"
           data-aos-duration="900"
+          style={{ marginLeft: "50px" }}
         >
           <LinkTitle>Schedule a Meeting</LinkTitle>
           <LinkItem href="https://calendly.com/erickmunoztech/phone-call-meeting">
             <button2>Click Here</button2>
           </LinkItem>
         </LinkColumn>
-        
-        
       </LinkList>
-      <SocialIconsContainer style={{ display: "flex", gap: "7px" }}>
+      <SocialIconsContainer
+        style={{ display: "flex", gap: "7px" }}
+      >
         <CompanyContainer>
           <Slogan>
             "Great things happen to those who don't stop believing, trying,
             learning, and being grateful.”
           </Slogan>
         </CompanyContainer>
-        <SocialIcons
-          href="https://github.com/dungyy"
-        >
-          <AiFillGithub size="3rem"></AiFillGithub>
-        </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/erick-munoz-2532ab219/">
-          <AiFillLinkedin size="3rem"></AiFillLinkedin>
-        </SocialIcons>
-        <SocialIcons href="https://twitter.com/codewithdungy">
-          <AiFillTwitterCircle size="3rem"></AiFillTwitterCircle>
-        </SocialIcons>
+        <SocialContainer>
+          <SocialIcons href="https://github.com/dungyy">
+            <AiFillGithub size="3rem"></AiFillGithub>
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/erick-munoz-2532ab219/">
+            <AiFillLinkedin size="3rem"></AiFillLinkedin>
+          </SocialIcons>
+          <SocialIcons href="https://twitter.com/codewithdungy">
+            <AiFillTwitterCircle size="3rem"></AiFillTwitterCircle>
+          </SocialIcons>
+        </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
   );

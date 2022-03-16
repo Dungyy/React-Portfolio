@@ -15,7 +15,7 @@ import {
   ContactDropDown,
   NavProductsIcon
 } from "./HeaderStyles";
-import ScrollAnimation from "../ScrollAnimations/ScrollAnimation";
+import ScrollAnimation from "../Animations/ScrollAnimation";
 import React, { useState } from "react";
 
 const Header = () => {

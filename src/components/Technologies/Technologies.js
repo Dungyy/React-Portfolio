@@ -20,7 +20,7 @@ import {
   ListParagraph,
   ListTitle,
 } from "./TechnologiesStyles";
-import ScrollAnimation from "../ScrollAnimations/ScrollAnimation";
+import ScrollAnimation from "../Animations/ScrollAnimation";
 
 const Technologies = () => {
   return (
@@ -83,7 +83,7 @@ const Technologies = () => {
               </ListTitle>
               <ListParagraph data-aos="fade-left" data-aos-duration="1000">
                 ExpressJS | NextJS | ViteJS <br /> MongoDB & Atlas | MySql <br />{" "}
-                BootStrap5 | NPM | JSON <br /> GIT | GitHub Version Control{" "}
+                BootStrap5 | NPM | RESTful API <br /> GIT | GitHub Version Control{" "}
                 <br />
                 Visual Studio Code
               </ListParagraph>

@@ -1,13 +1,14 @@
 import React from "react";
 
 const BackgroundAnimation = () => (
-  <div>
+  <div className="svg-container">
     <svg
       className="BgAnimation__svg"
-      viewBox="50 0 602 802"
-      fill="none"
+      viewBox="0 0 500 500"
+      fill="100%"
       xmlns="http://www.w3.org/2000/svg"
     >
+    
       <g opacity=".15">
         <path
           fillRule="evenodd"
@@ -26,6 +27,7 @@ const BackgroundAnimation = () => (
           stroke="url(#paint2_radial)"
           id="path_2"
         />
+        
       </g>
       <ellipse
         cx="295.027"

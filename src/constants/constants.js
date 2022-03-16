@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Tesla Replica",
     description:
-      "Re-Created Tesla website, I used React, a Redux template along with Styled Components",
+      "I Re-Created the Tesla website. I used Reactjs and a Redux template along with Styled Components.",
     image: "/images/tesla-replica.png",
     tags: ["React", "Redux", "Styled-Components"],
     source: "https://github.com/Dungyy/tesla-replica",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Jon's Portfolio",
     description:
-      "Jon is a client of mine who wanted a online portfolio to showcase his art to the world wide web. I used Python has a backend along with Flask's mirco frame work. On the frontend I used HTML, CSS and JavaScript for the drop down nav.",
+      "Jon is a client who wanted an online portfolio to showcase his art to the world wide web I used Python Flask's Mirco framework as a backend. On the front, I used HTML, CSS, and JavaScript for the drop-down nav.",
     image: "/images/2.png",
     tags: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
     source: "https://github.com/Dungyy/Jonathons-portfolio",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Dungy chat",
     description:
-      "A Realtime chat app using websockets, I used Node.js, Express and Socket.io as my backend with Vanilla JavaScript on the frontend with a custom UI",
+      "A Real-time chat app using WebSockets, I used Node.js, Express, and Socket.io as my backend with Vanilla JavaScript on the frontend with a custom UI",
     image: "/images/dungy.png",
     tags: ["NodeJS", "Express", "Socket.io", "JavaScript"],
     source: "https://github.com/Dungyy/Dungy-Chat",
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: "TinDog",
     description:
-      "TinDog its like tinder but for dogs. I created this Landing Page for a fake company as a joke, check it out its pretty funny",
+      "TinDog is like tinder but for dogs. I created this Landing Page for a fake company as a joke, check it out it's pretty funny",
     image: "/images/tindog.png",
     tags: ["HTML", "CSS", "Bootstrap5"],
     source: "https://github.com/Dungyy/tindog",
@@ -60,11 +60,3 @@ export const projects = [
     id: 5,
   },
 ];
-
-// export const TimeLineData = [
-//   { year: 2020, text: 'Started my journey', },
-//   { year: 2018, text: 'Worked as a freelance developer', },
-//   { year: 2019, text: 'started JavaScript', },
-//   { year: 2020, text: 'Shared my projects with the world', },
-//   { year: 2021, text: 'Started my own platform', },
-// ];
