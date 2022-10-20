@@ -13,13 +13,14 @@ import {
   SocialIcons,
   Span,
   ContactDropDown,
-  NavProductsIcon
+  NavProductsIcon,
 } from "./HeaderStyles";
 import ScrollAnimation from "../Animations/ScrollAnimation";
-import React, { useState } from "react";
+import React from "react";
+import Button from "../../styles/GlobalComponents/Button";
+
 
 const Header = () => {
-
   return (
     <ScrollAnimation>
       <Container>
@@ -41,30 +42,21 @@ const Header = () => {
         </Div1>
         <Div2>
           <li
-            data-aos="fade-up-right"
+            data-aos="fade-down"
             data-aos-anchor-placement="top-center"
             data-aos-duration="1500"
           >
-            <Link href="#projects">
-              <NavLink>Projects</NavLink>
+            <Link href="/CyberSecurity">
+              <NavLink>Cyber Security</NavLink>
             </Link>
           </li>
           <li
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-anchor-placement="top-center"
             data-aos-duration="1500"
           >
-            <Link href="#tech">
-              <NavLink>Technologies</NavLink>
-            </Link>
-          </li>
-          <li
-            data-aos="fade-up-left"
-            data-aos-anchor-placement="top-center"
-            data-aos-duration="1500"
-          >
-            <Link href="#about">
-              <NavLink>About</NavLink>
+            <Link href="/WebDevelopment">
+              <NavLink>Web Development</NavLink>
             </Link>
           </li>
         </Div2>
@@ -97,7 +89,6 @@ const Header = () => {
               onClick={() => window.open("https://twitter.com/codewithdungy")}
             ></AiFillTwitterCircle>
           </SocialIcons>
-          
         </Div3>
       </Container>
     </ScrollAnimation>

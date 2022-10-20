@@ -6,10 +6,12 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, HeroContainer } from "./HeroStyles";
 import Typist from "react-typist";
+import Link from "next/link";
+import ButtonSection from "./HeroStyles";
 
 const Hero = () => {
   return (
-      <Section row nopadding>
+    <Section row nopadding>
       <HeroContainer>
         <LeftSection>
           <SectionTitle
@@ -20,7 +22,7 @@ const Hero = () => {
             data-aos-duration="1700"
           >
             Hi,
-            <br/>
+            <br />
             I'm Erick
           </SectionTitle>
           <SectionText
@@ -28,7 +30,7 @@ const Hero = () => {
             data-aos-easing="linear"
             data-aos-duration="1300"
           >
-            <Typist>
+            {/* <Typist>
               <span> I'm a Self-Taught Software Engineer </span>
               <Typist.Backspace count={19} delay={5000} />
               <span> Web Developer </span>
@@ -41,7 +43,7 @@ const Hero = () => {
               <br />
               <span> Contact me for a chat, otherwise check out my portfolio below</span>
               <Typist.Delay ms={500} />
-            </Typist>
+            </Typist> */}
           </SectionText>
 
           {/* <Button
@@ -49,19 +51,15 @@ const Hero = () => {
           >
             Contact Me
           </Button> */}
-          
         </LeftSection>
-        <Button
-        onClick={() =>
-          window.open("https://calendly.com/erickmunoztech/phone-call-meeting")
-        }
-      >
-        Book Me!
-      </Button>
-      <br />
-        </HeroContainer>
-      </Section>
-      
+        <Button>
+          <Link href="/WebDevelopment">Web Development</Link>
+        </Button>
+        <Button>
+          <Link href="/CyberSecurity">Cyber Security</Link>
+        </Button>
+      </HeroContainer>
+    </Section>
   );
 };
 

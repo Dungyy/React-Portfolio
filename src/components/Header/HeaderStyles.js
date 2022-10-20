@@ -1,5 +1,5 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from "react-icons/io";
+import styled from "styled-components";
 import { GrClose } from "react-icons/gr";
 
 export const Container = styled.div`
@@ -21,15 +21,19 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 3rem;
-  font-family: 'Sedgwick Ave Display', cursive; 
-`; 
+  font-family: "Sedgwick Ave Display", cursive;
+`;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(
+    121.57deg,
+    #ffffff 18.77%,
+    rgba(255, 255, 255, 0.66) 60.15%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -61,12 +65,24 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  transition: 0.3s ease;
+  border-radius: 25px;
+  padding: 8px;
+  background: #000;
+  display: flex; 
+  flex-direction: center; 
+  text-align: center;
+
 
   &:hover {
-    color: #fff;
+    color: black;
+    font-weight: 600;
     opacity: 1;
     cursor: pointer;
-    text-decoration: underline;
+    background: ${({ alt }) =>
+      alt
+        ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
+        : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"} !important;
     text-decoration-color: rgba(255, 255, 255, 0.75);
   }
 
@@ -74,12 +90,17 @@ export const NavLink = styled.a`
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    
+    display: flex; 
+  flex-direction: center; 
+  text-align: center;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
     font-size: 0;
+    display: flex; 
+  flex-direction: center; 
+  text-align: center;
   }
 `;
 
@@ -116,8 +137,8 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   display: flex;
   align-self: center;
   transition: 0.3s ease;
-  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};
-  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};
+  opacity: ${({ isOpen }) => (isOpen ? "1" : ".75")};
+  transform: ${({ isOpen }) => (isOpen ? "scaleY(-1)" : "scaleY(1)")};
 
   &:hover {
     opacity: 1;
@@ -129,22 +150,22 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
+// Social Icons
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 25px;
-padding: 8px;
-background: #000 ;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 25px;
+  padding: 8px;
+  background: #000;
 
-
-&:hover {
-    background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'} !important;
+  &:hover {
+    background: ${({ alt }) =>
+      alt
+        ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
+        : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"} !important;
     transform: scale(1.2);
     cursor: pointer;
     color: black;
-    
   }
-`
+`;

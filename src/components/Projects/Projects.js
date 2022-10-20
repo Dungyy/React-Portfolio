@@ -30,14 +30,13 @@ const Projects = () => {
         data-aos-easing="linear"
         data-aos-duration="900"
       >
-        <SectionDivider />
         <SectionTitle
           main
           data-aos="fade-right"
           data-aos-easing="linear"
           data-aos-duration="900"
         >
-          Portfolio
+          Services
         </SectionTitle>
         <GridContainer data-aos="fade-in">
           {projects.map(
@@ -52,7 +51,7 @@ const Projects = () => {
                 <CardInfo data-aos="fade-up" data-aos-duration="1500">
                   {description}
                 </CardInfo>
-                <div><br/>
+                {/* <div><br/>
                   <TitleContent
                     data-aos="zoom-fade-in"
                     data-aos-duration="1500"
@@ -64,11 +63,12 @@ const Projects = () => {
                       <Tag key={i}>{tag}</Tag>
                     ))}
                   </TagList>
-                </div>
-                <UtilityList data-aos="flip-up" data-aos-duration="1500">
+                </div> 
+                 <UtilityList data-aos="flip-up" data-aos-duration="1500">
                   <ExternalLinks href={visit}>Live</ExternalLinks>
                   <ExternalLinks href={source}>Code</ExternalLinks>
-                </UtilityList>
+                </UtilityList> */}
+                <br />
               </BlogCard>
             )
           )}
