@@ -3,6 +3,9 @@
   "description": "Ericks React Portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "17.9"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
