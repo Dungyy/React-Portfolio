@@ -21,7 +21,7 @@ const Hero = () => {
             data-aos-easing="linear"
             data-aos-duration="1700"
           >
-            Hi,
+            Hey!
             <br />
             I'm Erick
           </SectionTitle>
@@ -30,6 +30,7 @@ const Hero = () => {
             data-aos-easing="linear"
             data-aos-duration="1300"
           >
+            <p>A Software Developer with a genuine enthusiasm for programming, Learning new technologies and helping humans.</p>
             {/* <Typist>
               <span> I'm a Self-Taught Software Engineer </span>
               <Typist.Backspace count={19} delay={5000} />
@@ -46,18 +47,15 @@ const Hero = () => {
             </Typist> */}
           </SectionText>
 
-          {/* <Button
-            onClick={() => (window.location = "mailto:erickmunoz13@gmail.com")}
+          <Button
+            onClick={() => (window.location = "/about")}
           >
-            Contact Me
-          </Button> */}
+            Let's work together
+          </Button>
         </LeftSection>
-        <Button>
-          <Link href="/WebDevelopment">Web Development</Link>
-        </Button>
-        <Button>
-          <Link href="/CyberSecurity">Cyber Security</Link>
-        </Button>
+        {/* <Button>
+          <Link href="#about" style={{color: 'white'}}>Let's work together</Link>
+        </Button> */}
       </HeroContainer>
     </Section>
   );

@@ -34,7 +34,7 @@ const Header = () => {
                 marginBottom: "20px",
               }}
             >
-              <Span style={{ fontFamily: "Sedgwick Ave Display, cursive" }}>
+              <Span style={{ fontFamily: "Sedgwick Ave Display, cursive", fontSize: "3rem" }}>
                 Erick Munoz
               </Span>
             </a>
@@ -46,8 +46,8 @@ const Header = () => {
             data-aos-anchor-placement="top-center"
             data-aos-duration="1500"
           >
-            <Link href="/CyberSecurity">
-              <NavLink>Cyber Security</NavLink>
+            <Link href="/WebDevelopment">
+              <NavLink>Web Development</NavLink>
             </Link>
           </li>
           <li
@@ -55,8 +55,8 @@ const Header = () => {
             data-aos-anchor-placement="top-center"
             data-aos-duration="1500"
           >
-            <Link href="/WebDevelopment">
-              <NavLink>Web Development</NavLink>
+            <Link href="/CyberSecurity">
+              <NavLink>Cyber Security</NavLink>
             </Link>
           </li>
         </Div2>

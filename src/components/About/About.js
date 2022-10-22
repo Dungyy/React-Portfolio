@@ -18,10 +18,12 @@ const Timeline = () => {
       {" "}
       <br />
       <Span1>
-        <SectionDivider />
         <SectionTitle data-aos="fade-right" data-aos-duration="1300">
           About me
         </SectionTitle>
+        <SectionDivider />
+
+
         <SectionText data-aos="fade-left" data-aos-duration="1800">
           I am a Software Developer who has a genuine enthusiasm for
           programming, Learning new technologies, and helping people. My life
@@ -34,6 +36,7 @@ const Timeline = () => {
           life YOU want to live.*
         </SectionText>
       </Span1>
+
     </section>
   );
 };

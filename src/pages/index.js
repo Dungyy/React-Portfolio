@@ -6,19 +6,24 @@ import About from "../components/About/About";
 import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import ScrollAnimation from "../components/Animations/ScrollAnimation";
+import HeroBG from "../components/HeroBG";
+
 const Home = () => {
   return (
+    <>
     <ScrollAnimation>
       <Layout>
         <Section grid>
           <Hero />
-          <BgAnimation />
+          {/* <BgAnimation /> */}
         </Section>
         <Projects />
         <Technologies />
         <About />
       </Layout>
+      <HeroBG />
     </ScrollAnimation>
+    </>
   );
 };
 

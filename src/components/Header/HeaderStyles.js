@@ -66,12 +66,16 @@ export const NavLink = styled.a`
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
   transition: 0.3s ease;
-  border-radius: 25px;
+  border-radius: 20px;
+  border: 10px;
   padding: 8px;
-  background: #000;
+  background: black;
   display: flex; 
   flex-direction: center; 
   text-align: center;
+  color: white;
+  box-shadow: .1px 0px .1px 1px white;
+  
 
 
   &:hover {
@@ -97,10 +101,11 @@ export const NavLink = styled.a`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
-    font-size: 0;
+    font-size: 1.2rem;
     display: flex; 
   flex-direction: center; 
   text-align: center;
+  margin-top: 15px;
   }
 `;
 
