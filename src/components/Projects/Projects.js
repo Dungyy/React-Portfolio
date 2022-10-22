@@ -51,7 +51,7 @@ const Projects = () => {
                 <CardInfo data-aos="fade-up" data-aos-duration="1500">
                   {description}
                 </CardInfo>
-                {/* <div><br/>
+                <div><br/>
                   <TitleContent
                     data-aos="zoom-fade-in"
                     data-aos-duration="1500"
@@ -67,7 +67,7 @@ const Projects = () => {
                  <UtilityList data-aos="flip-up" data-aos-duration="1500">
                   <ExternalLinks href={visit}>Live</ExternalLinks>
                   <ExternalLinks href={source}>Code</ExternalLinks>
-                </UtilityList> */}
+                </UtilityList>
                 <br />
               </BlogCard>
             )
