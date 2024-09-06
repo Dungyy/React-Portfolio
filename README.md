@@ -1,5 +1,5 @@
 ## React-Portfolio
-Live: [Erick Portfolio](https://dungy-app.herokuapp.com/)
+Live: [Erick Portfolio](https://erickmunoz.netlify.app/)
 
 New Portfolio using React and Next JS
 

@@ -12,7 +12,9 @@ const HeroBG = () => {
   };
   return (
     <Particles
+    style={{ position: "relative", zIndex: -1 }}
       id="tsparticles"
+      className="particles-background"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
